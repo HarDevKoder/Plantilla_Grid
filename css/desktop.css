@@ -1,0 +1,10 @@
+/* TAMAÑO PARA ESCRITORIO */
+@media (min-width: 900px) {
+  .grid-container {
+    grid:
+      "header     header      header" 100px
+      "main       main        main"   auto
+      "footer     footer      footer" 100px /
+      200px       auto        200px;
+  }
+}

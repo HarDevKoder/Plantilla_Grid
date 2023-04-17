@@ -1,0 +1,9 @@
+/* TAMAÑO PARA TABLETAS */
+@media (min-width: 600px) {
+  .grid-container {
+    grid:
+      "header     header" 100px
+      "main       main"   auto
+      "footer     footer" 100px / 200px auto;
+  }
+}
